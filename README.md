@@ -316,3 +316,22 @@ sudo reboot now
 ```
 
 Protobuf should now be installed!
+
+
+
+## Appendix
+
+### Adapt to tensorflow 2.1
+These instructions show how to adapt to TensorFlow 2.1.
+```
+upgrade numpy
+
+pip3 install --upgrade numpy
+
+```
+Update to tensorflow 2.1.0
+
+sudo pip3 install https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.1.0/tensorflow-2.1.0-cp37-none-linux_armv7l.whl
+
+It should install tensorflow 2.1 and associated dependencies.
+```
