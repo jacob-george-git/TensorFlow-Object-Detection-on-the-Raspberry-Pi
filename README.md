@@ -335,3 +335,17 @@ sudo pip3 install https://github.com/lhelontra/tensorflow-on-arm/releases/downlo
 
 It should install tensorflow 2.1 and associated dependencies.
 ```
+
+Update twilio for the Pet-detector.py
+
+pip3 install twilio
+
+Register and configure twilio and obtaine a phone number.
+
+Before running Pet-detector.py, export the twilio env variables.
+
+export TWILIO_ACCOUNT_SID=[sid_value]
+export TWILIO_AUTH_TOKEN=[auth_token]
+export MY_DIGITS=[your cell phone number]
+export TWILIO_DIGITS=[Obtained twilio phone number]
+
